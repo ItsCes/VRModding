@@ -11,3 +11,4 @@
 /Users/mmanzi/FAFO/obj/Debug/net6.0/refint/FAFO.dll
 /Users/mmanzi/FAFO/obj/Debug/net6.0/FAFO.pdb
 /Users/mmanzi/FAFO/obj/Debug/net6.0/ref/FAFO.dll
+/Users/mmanzi/FAFO/obj/Debug/net6.0/FAFO.sourcelink.json

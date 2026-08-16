@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VyUWBj3Ly7k=",
+  "dgSpecHash": "Vtnxqb0+Y+g=",
   "success": true,
   "projectFilePath": "/Users/mmanzi/FAFO/FAFO.csproj",
   "expectedPackageFiles": [
@@ -22,7 +22,6 @@
     "/Users/mmanzi/.nuget/packages/il2cppinterop.generator/1.4.6-ci.426/il2cppinterop.generator.1.4.6-ci.426.nupkg.sha512",
     "/Users/mmanzi/.nuget/packages/il2cppinterop.harmonysupport/1.4.6-ci.426/il2cppinterop.harmonysupport.1.4.6-ci.426.nupkg.sha512",
     "/Users/mmanzi/.nuget/packages/il2cppinterop.runtime/1.4.6-ci.426/il2cppinterop.runtime.1.4.6-ci.426.nupkg.sha512",
-    "/Users/mmanzi/.nuget/packages/litedb/5.0.21/litedb.5.0.21.nupkg.sha512",
     "/Users/mmanzi/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.1/microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "/Users/mmanzi/.nuget/packages/microsoft.netcore.platforms/1.1.1/microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "/Users/mmanzi/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
@@ -47,10 +46,8 @@
     "/Users/mmanzi/.nuget/packages/samboy063.cpp2il.core/2022.1.0-pre-release.18/samboy063.cpp2il.core.2022.1.0-pre-release.18.nupkg.sha512",
     "/Users/mmanzi/.nuget/packages/samboy063.libcpp2il/2022.1.0-pre-release.18/samboy063.libcpp2il.2022.1.0-pre-release.18.nupkg.sha512",
     "/Users/mmanzi/.nuget/packages/samboy063.wasmdisassembler/2022.1.0-pre-release.15/samboy063.wasmdisassembler.2022.1.0-pre-release.15.nupkg.sha512",
-    "/Users/mmanzi/.nuget/packages/scarletcore/1.6.44/scarletcore.1.6.44.nupkg.sha512",
     "/Users/mmanzi/.nuget/packages/semanticversioning/2.0.2/semanticversioning.2.0.2.nupkg.sha512",
     "/Users/mmanzi/.nuget/packages/stablenamedotnet/0.1.0-pre-release.15/stablenamedotnet.0.1.0-pre-release.15.nupkg.sha512",
-    "/Users/mmanzi/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/mmanzi/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/Users/mmanzi/.nuget/packages/system.collections.concurrent/4.3.0/system.collections.concurrent.4.3.0.nupkg.sha512",
     "/Users/mmanzi/.nuget/packages/system.collections.nongeneric/4.3.0/system.collections.nongeneric.4.3.0.nupkg.sha512",
@@ -95,8 +92,8 @@
     "/Users/mmanzi/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
     "/Users/mmanzi/.nuget/packages/vrising.unhollowed.client/1.1.9.9219901/vrising.unhollowed.client.1.1.9.9219901.nupkg.sha512",
     "/Users/mmanzi/.nuget/packages/vrising.vampirecommandframework/0.9.0/vrising.vampirecommandframework.0.9.0.nupkg.sha512",
-    "/Users/mmanzi/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
-    "/Users/mmanzi/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512"
+    "/Users/mmanzi/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/mmanzi/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
   ],
   "logs": []
 }

@@ -63,10 +63,6 @@
               "target": "Package",
               "version": "[6.0.0-be.733, )"
             },
-            "ScarletCore": {
-              "target": "Package",
-              "version": "[1.6.44, )"
-            },
             "VRising.Unhollowed.Client": {
               "target": "Package",
               "version": "[1.1.9.9219901, )"

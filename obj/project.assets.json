@@ -284,22 +284,6 @@
           }
         }
       },
-      "LiteDB/5.0.21": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.5.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/LiteDB.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/LiteDB.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
@@ -599,26 +583,6 @@
           "lib/net6.0/_._": {}
         }
       },
-      "ScarletCore/1.6.44": {
-        "type": "package",
-        "dependencies": {
-          "BepInEx.Core": "6.0.0-be.733",
-          "BepInEx.PluginInfoProps": "2.1.0",
-          "BepInEx.Unity.IL2CPP": "6.0.0-be.733",
-          "LiteDB": "5.0.21",
-          "VRising.Unhollowed.Client": "1.1.9.9219901"
-        },
-        "compile": {
-          "lib/net6.0/ScarletCore.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/ScarletCore.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "SemanticVersioning/2.0.2": {
         "type": "package",
         "compile": {
@@ -635,15 +599,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/_._": {}
-        }
-      },
-      "System.Buffers/4.5.1": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -2096,26 +2051,6 @@
         "logo_icon.png"
       ]
     },
-    "LiteDB/5.0.21": {
-      "sha512": "ykJ7ffFl7P9YQKR/PLci6zupiLrsSCNkOTiw6OtzntH7d2kCYp5L1+3a/pksKgTEHcJBoPXFtg7VZSGVBseN9w==",
-      "type": "package",
-      "path": "litedb/5.0.21",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "AppVeyorSettings.json",
-        "LICENSE",
-        "icon_64x64.png",
-        "lib/net45/LiteDB.dll",
-        "lib/net45/LiteDB.xml",
-        "lib/netstandard1.3/LiteDB.dll",
-        "lib/netstandard1.3/LiteDB.xml",
-        "lib/netstandard2.0/LiteDB.dll",
-        "lib/netstandard2.0/LiteDB.xml",
-        "litedb.5.0.21.nupkg.sha512",
-        "litedb.nuspec"
-      ]
-    },
     "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
       "sha512": "dzB2Cgg+JmrouhjkcQGzSFjjvpwlq353i8oBQO2GWNjCXSzhbtBRUf28HSauWe7eib3wYOdb3tItdjRwAdwCSg==",
       "type": "package",
@@ -2518,19 +2453,6 @@
         "samboy063.wasmdisassembler.nuspec"
       ]
     },
-    "ScarletCore/1.6.44": {
-      "sha512": "zvZEuO/mMqCiAFKLKitc1wMVCX5ckAe2nQV+SnGB96zeICfthP1r1H2HHxJRrPPOYXJLl6+KxZV+qDJroWedDw==",
-      "type": "package",
-      "path": "scarletcore/1.6.44",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net6.0/ScarletCore.dll",
-        "lib/net6.0/ScarletCore.xml",
-        "scarletcore.1.6.44.nupkg.sha512",
-        "scarletcore.nuspec"
-      ]
-    },
     "SemanticVersioning/2.0.2": {
       "sha512": "4EQgYdNZ92SyaO7YFk6olVnebF5V+jrHyMUjvPq89tLeMo8NSfgDF+6Zwq/lgh9j/0yfQp9Lkm0ZA0rUATCZFA==",
       "type": "package",
@@ -2556,37 +2478,6 @@
         "lib/netstandard2.0/StableNameDotNet.dll",
         "stablenamedotnet.0.1.0-pre-release.15.nupkg.sha512",
         "stablenamedotnet.nuspec"
-      ]
-    },
-    "System.Buffers/4.5.1": {
-      "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
-      "type": "package",
-      "path": "system.buffers/4.5.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Buffers.dll",
-        "lib/net461/System.Buffers.xml",
-        "lib/netcoreapp2.0/_._",
-        "lib/netstandard1.1/System.Buffers.dll",
-        "lib/netstandard1.1/System.Buffers.xml",
-        "lib/netstandard2.0/System.Buffers.dll",
-        "lib/netstandard2.0/System.Buffers.xml",
-        "lib/uap10.0.16299/_._",
-        "ref/net45/System.Buffers.dll",
-        "ref/net45/System.Buffers.xml",
-        "ref/netcoreapp2.0/_._",
-        "ref/netstandard1.1/System.Buffers.dll",
-        "ref/netstandard1.1/System.Buffers.xml",
-        "ref/netstandard2.0/System.Buffers.dll",
-        "ref/netstandard2.0/System.Buffers.xml",
-        "ref/uap10.0.16299/_._",
-        "system.buffers.4.5.1.nupkg.sha512",
-        "system.buffers.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
       ]
     },
     "System.Collections/4.3.0": {
@@ -5145,7 +5036,6 @@
       "BepInEx.Core >= 6.0.0-be.733",
       "BepInEx.PluginInfoProps >= 2.*",
       "BepInEx.Unity.IL2CPP >= 6.0.0-be.733",
-      "ScarletCore >= 1.6.44",
       "VRising.Unhollowed.Client >= 1.1.9.9219901",
       "VRising.VampireCommandFramework >= 0.9.*"
     ]
@@ -5211,10 +5101,6 @@
             "include": "Compile",
             "target": "Package",
             "version": "[6.0.0-be.733, )"
-          },
-          "ScarletCore": {
-            "target": "Package",
-            "version": "[1.6.44, )"
           },
           "VRising.Unhollowed.Client": {
             "target": "Package",

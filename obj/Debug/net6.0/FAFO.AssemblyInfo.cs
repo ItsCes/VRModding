@@ -14,7 +14,8 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Messing Around and Finding Out")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.10.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.10+1.Branch.main.Sha.c33d0879382e1a0da34861ec55914ba7e637a80e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute(("0.1.10+1.Branch.main.Sha.c33d0879382e1a0da34861ec55914ba7e637a80e.e7257435eb56a4d" +
+    "0b0b77c963b3f68085a50a897"))]
 [assembly: System.Reflection.AssemblyProductAttribute("FAFO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FAFO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.1.10.0")]

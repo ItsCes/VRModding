@@ -1,41 +1,44 @@
 using Stunlock.Core;
-using ScarletCore.Services;
 using VampireCommandFramework;
+using ProjectM;
+using ProjectM.Network;
+using Unity.Entities;
 
 namespace FAFO; 
-
-/* 
-Praise the Barrel.
-Be the Barrel.
-Become Barrel.
-*/
-
+[CommandGroup("sov", "s")]
 public class Custom_Commands {
 
-static readonly PrefabGUID BarrelDisguiseABG = new(1250098443); // AB_Consumable_BarrelDisguise_AbilityGroup
-static readonly PrefabGUID DanceEmoteABG = new(604121141); // AB_Emote_Vampire_DanceSingle01_AbilityGroup
-static readonly PrefabGUID LaughABG = new(-1685517289); // AB_Emote_Vampire_Laugh_AbilityGroup
-static readonly PrefabGUID DanceEmoteABG2 = new(-925169006); //AB_Emote_Vampire_DanceSingle02_AbilityGroup
+    static readonly PrefabGUID BarrelDisguiseABG = new(1250098443); // AB_Consumable_BarrelDisguise_AbilityGroup
+    static readonly PrefabGUID LaughABG = new(-1685517289); // AB_Emote_Vampire_Laugh_AbilityGroup
 
-    [Command("sov barrel")]
+    [Command("barrel")]
     public void BarrelShift(ChatCommandContext ctx) {
-        var player = ctx.Event.SenderCharacterEntity;
-        AbilityService.CastAbility(player, BarrelDisguiseABG);
-    }
-    [Command("sov emote dance1")]
-    public void Dance1Emote(ChatCommandContext ctx) {
-        var player = ctx.Event.SenderCharacterEntity;
-        AbilityService.CastAbility(player, DanceEmoteABG);
-    }
-    [Command("sov emote danc21")]
-    public void Dance2Emote(ChatCommandContext ctx) {
-        var player = ctx.Event.SenderCharacterEntity;
-        AbilityService.CastAbility(player, DanceEmoteABG2);
-    }
-    [Command("sov emote laugh")]
-    public void LaughEmote(ChatCommandContext ctx) {
-        var player = ctx.Event.SenderCharacterEntity;
-        AbilityService.CastAbility(player, LaughABG);
+        CastAbility(ctx, BarrelDisguiseABG);
     }
 
+    [Command("emote laugh", "e laugh")]
+    public void LaughEmote(ChatCommandContext ctx) {
+        CastAbility(ctx, LaughABG);
+    }
+
+  public static void CastAbility(ChatCommandContext ctx, PrefabGUID abilityGroup) {
+    Entity player = ctx.Event.SenderCharacterEntity;
+    Entity user = ctx.Event.SenderUserEntity;
+    EntityManager entityManager = Plugin.Server.EntityManager;
+
+    CastAbilityServerDebugEvent castEvent = new() {
+        AbilityGroup = abilityGroup,
+        Who = entityManager.GetComponentData<NetworkId>(player)
+    };
+
+    FromCharacter fromCharacter = new() {
+        Character = player,
+        User = user
+    };
+
+    int userIndex = entityManager.GetComponentData<User>(user).Index;
+
+    DebugEventsSystem debugEventsSystem = Plugin.Server.GetExistingSystemManaged<DebugEventsSystem>();
+    debugEventsSystem.CastAbilityServerDebugEvent(userIndex, ref castEvent, ref fromCharacter);
+}
 }

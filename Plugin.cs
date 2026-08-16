@@ -2,6 +2,8 @@
 using BepInEx.Unity.IL2CPP;
 using HarmonyLib;
 using VampireCommandFramework;
+using Unity.Entities;
+using System.Linq;
 
 namespace FAFO;
 
@@ -10,7 +12,9 @@ namespace FAFO;
 public class Plugin : BasePlugin
 {
     Harmony _harmony;
-
+    public static World Server =>
+        _server ??= World.s_AllWorlds.ToArray().First(w => w.Name == "Server");
+        static World _server;
     public override void Load()
     {
         // Plugin startup logic
@@ -31,22 +35,4 @@ public class Plugin : BasePlugin
         return true;
     }
 
-    // // Uncomment for example commmand or delete
-
-    // /// <summary> 
-    // /// Example VCF command that demonstrated default values and primitive types
-    // /// Visit https://github.com/decaprime/VampireCommandFramework for more info 
-    // /// </summary>
-    // /// <remarks>
-    // /// How you could call this command from chat:
-    // ///
-    // /// .fafo-example "some quoted string" 1 1.5
-    // /// .fafo-example boop 21232
-    // /// .fafo-example boop-boop
-    // ///</remarks>
-    // [Command("fafo-example", description: "Example command from fafo", adminOnly: true)]
-    // public void ExampleCommand(ICommandContext ctx, string someString, int num = 5, float num2 = 1.5f)
-    // { 
-    //     ctx.Reply($"You passed in {someString} and {num} and {num2}");
-    // }
 }

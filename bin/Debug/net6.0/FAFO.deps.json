@@ -8,32 +8,11 @@
     ".NETCoreApp,Version=v6.0": {
       "FAFO/0.1.10": {
         "dependencies": {
-          "ScarletCore": "1.6.44",
           "VRising.Unhollowed.Client": "1.1.9.9219901",
           "VRising.VampireCommandFramework": "0.9.0"
         },
         "runtime": {
           "FAFO.dll": {}
-        }
-      },
-      "LiteDB/5.0.21": {
-        "runtime": {
-          "lib/netstandard2.0/LiteDB.dll": {
-            "assemblyVersion": "5.0.21.0",
-            "fileVersion": "5.0.21.0"
-          }
-        }
-      },
-      "ScarletCore/1.6.44": {
-        "dependencies": {
-          "LiteDB": "5.0.21",
-          "VRising.Unhollowed.Client": "1.1.9.9219901"
-        },
-        "runtime": {
-          "lib/net6.0/ScarletCore.dll": {
-            "assemblyVersion": "1.6.44.0",
-            "fileVersion": "1.6.44.0"
-          }
         }
       },
       "VRising.Unhollowed.Client/1.1.9.9219901": {
@@ -747,20 +726,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "LiteDB/5.0.21": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ykJ7ffFl7P9YQKR/PLci6zupiLrsSCNkOTiw6OtzntH7d2kCYp5L1+3a/pksKgTEHcJBoPXFtg7VZSGVBseN9w==",
-      "path": "litedb/5.0.21",
-      "hashPath": "litedb.5.0.21.nupkg.sha512"
-    },
-    "ScarletCore/1.6.44": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-zvZEuO/mMqCiAFKLKitc1wMVCX5ckAe2nQV+SnGB96zeICfthP1r1H2HHxJRrPPOYXJLl6+KxZV+qDJroWedDw==",
-      "path": "scarletcore/1.6.44",
-      "hashPath": "scarletcore.1.6.44.nupkg.sha512"
     },
     "VRising.Unhollowed.Client/1.1.9.9219901": {
       "type": "package",
