@@ -1,0 +1,13 @@
+/Users/mmanzi/FAFO/bin/Debug/net6.0/FAFO.deps.json
+/Users/mmanzi/FAFO/bin/Debug/net6.0/FAFO.dll
+/Users/mmanzi/FAFO/bin/Debug/net6.0/FAFO.pdb
+/Users/mmanzi/FAFO/obj/Debug/net6.0/FAFO.csproj.AssemblyReference.cache
+/Users/mmanzi/FAFO/obj/Debug/net6.0/MyPluginInfo.cs
+/Users/mmanzi/FAFO/obj/Debug/net6.0/FAFO.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mmanzi/FAFO/obj/Debug/net6.0/FAFO.AssemblyInfoInputs.cache
+/Users/mmanzi/FAFO/obj/Debug/net6.0/FAFO.AssemblyInfo.cs
+/Users/mmanzi/FAFO/obj/Debug/net6.0/FAFO.csproj.CoreCompileInputs.cache
+/Users/mmanzi/FAFO/obj/Debug/net6.0/FAFO.dll
+/Users/mmanzi/FAFO/obj/Debug/net6.0/refint/FAFO.dll
+/Users/mmanzi/FAFO/obj/Debug/net6.0/FAFO.pdb
+/Users/mmanzi/FAFO/obj/Debug/net6.0/ref/FAFO.dll

@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mmanzi/FAFO/FAFO.csproj": {}
+  },
+  "projects": {
+    "/Users/mmanzi/FAFO/FAFO.csproj": {
+      "version": "0.1.10",
+      "restore": {
+        "projectUniqueName": "/Users/mmanzi/FAFO/FAFO.csproj",
+        "projectName": "FAFO",
+        "projectPath": "/Users/mmanzi/FAFO/FAFO.csproj",
+        "packagesPath": "/Users/mmanzi/.nuget/packages/",
+        "outputPath": "/Users/mmanzi/FAFO/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mmanzi/FAFO/NuGet.Config",
+          "/Users/mmanzi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {},
+          "https://nuget.samboy.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "framework": "net6.0",
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
+      },
+      "frameworks": {
+        "net6.0": {
+          "framework": "net6.0",
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BepInEx.Core": {
+              "include": "Compile",
+              "target": "Package",
+              "version": "[6.0.0-be.733, )"
+            },
+            "BepInEx.PluginInfoProps": {
+              "target": "Package",
+              "version": "[2.*, )"
+            },
+            "BepInEx.Unity.IL2CPP": {
+              "include": "Compile",
+              "target": "Package",
+              "version": "[6.0.0-be.733, )"
+            },
+            "ScarletCore": {
+              "target": "Package",
+              "version": "[1.6.44, )"
+            },
+            "VRising.Unhollowed.Client": {
+              "target": "Package",
+              "version": "[1.1.9.9219901, )"
+            },
+            "VRising.VampireCommandFramework": {
+              "target": "Package",
+              "version": "[0.9.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
